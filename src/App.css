@@ -1,38 +1,94 @@
-.App {
+body{
+  background-color: #b689b0;
+  font-family: 'Maven Pro', sans-serif;
+  color:  #fff;
+}
+
+
+p{
+  font-size: 20px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+h1{
+
+  font-size: 12rem;
+  font-weight: bolder;
+  transform:  translateY(-25%);
+  line-height: 15rem;
+  letter-spacing: 2rem;
+  margin-bottom: -5rem;
+  margin-left: -10px;
+  padding: 6rem 3rem;
+  font-family: 'Black Ops One', cursive;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+/*************** ABOUT **********/
+
+img.me{
+  width: 25rem;
+  border-radius: 30rem;
+  transform: translateZ(0);
+  position: absolute;
+  /* right: 10%; */
+  left: 10%;
+}
+
+
+.about{
+  position: relative;
+  left: 40%;
+  padding: 0px 0px 5rem 0px;
+  margin-bottom: 3rem;
+}
+
+/****************** SKILLS *****************/
+
+.skills{
   text-align: center;
+  margin: 5rem -1rem ;
+  background-color: #faf2cc;
+  padding:2rem 10rem;
+  color: #9b4d90;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.skills img{
+  width: 6rem;
+  height: 6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin: 3rem 0px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.skill{
+  margin: 0px 4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/*************** EXPERIENCE *************/
+.experiences{
+  background-color: #414141;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  margin: -5rem -10px;
+  padding: 2rem 10rem; 
+}
+
+
+.experiences h3{
+ font-size: 25px;
+ margin-top: 2rem;
+}
+
+.experiences p{
+  margin-left: 1rem;
+  margin-top: -21px;
 }
